@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem;
+  gap: 4rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.cartIcon {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.cartIcon img {
+  width: 10%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .cartIcon img {
+    width: 40%;
+  }
+}
